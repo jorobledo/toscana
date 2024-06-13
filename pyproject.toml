@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+    "setuptools>=61.0"
+    ]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ToScAna"
+version = "0.0.1"
+authors = [
+  { name="Gabriel Cuello", email="cuello@ill.fr" },
+]
+description = "Total Scattering Analisis"
+readme = "readme.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy",
+    "lmfit",
+    "h5py",
+    "ipympl"
+]
+
+[tool.setuptools]
+py-modules = ['toscana']
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
