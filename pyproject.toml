@@ -6,11 +6,13 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ToScAna"
+name = "ToScAna_test"
 version = "0.0.1"
 authors = [
   { name="Gabriel Cuello", email="cuello@ill.fr" },
+  { name="Jose Robledo", email="j.robledo@fz-juelich.de"},
 ]
+
 description = "Total Scattering Analisis"
 readme = "readme.md"
 requires-python = ">=3.8"
