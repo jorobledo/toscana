@@ -32,5 +32,5 @@ dependencies = [
 py-modules = ['toscana']
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/jorobledo/toscana"
+Issues = "https://github.com/jorobledo/toscana/issues"
